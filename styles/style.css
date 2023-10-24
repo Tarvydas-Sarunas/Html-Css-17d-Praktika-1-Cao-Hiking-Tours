@@ -1,6 +1,10 @@
 html {
   --primery-1: rgb(61, 55, 240);
 }
+a {
+  color: blue;
+  font-size: 1.7rem;
+}
 
 /* header */
 header {
@@ -62,7 +66,7 @@ h1 {
 }
 /* -------about--------------- */
 .prototype1 {
-  padding: 4rem 4rem 0;
+  padding: 4rem 4rem;
 }
 .section-title {
   text-align: center;
@@ -84,4 +88,68 @@ h1 {
 .section-link {
   font-size: 1.5rem;
   color: blue;
+}
+/* ------our services */
+.prototype2 {
+  padding: 4rem 0 1rem;
+}
+.services {
+  background-color: #e4e4e4;
+}
+.cart-container {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.cart-item {
+  /* max-width: 40%; */
+  max-width: 45%;
+  margin-top: 3rem;
+}
+.icon-style {
+  font-size: 3rem;
+  background-color: var(--primery-1);
+  padding: 1rem;
+}
+.ss2 {
+  padding-top: 2rem;
+}
+.cart-item p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+/* --- Featured---------- */
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.place {
+  font-size: 1.7rem;
+  color: var(--primery-1);
+}
+.prise-container p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img-container {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 3rem;
+}
+.feature-text {
+  position: absolute;
+  bottom: calc(100% - 5rem);
+  z-index: 1;
+  background-color: rgb(114, 109, 244);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.a-center {
+  text-align: center;
+  margin-top: 4rem;
 }
