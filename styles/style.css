@@ -202,3 +202,34 @@ h1 {
   height: 2.5rem;
   border: none;
 }
+/* footer */
+.footer {
+  background-color: rgb(16, 15, 15);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.a-foot-container p a {
+  color: white;
+}
+.a-foot-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.ico-con2 {
+  /* width: 10rem;
+  margin-left: auto;
+  margin-right: auto; */
+}
+.footer-text {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+@media screen and (min-widht: 950px) {
+}
