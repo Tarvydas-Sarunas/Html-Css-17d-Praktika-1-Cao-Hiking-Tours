@@ -15,6 +15,9 @@ header p {
   font-size: 2rem;
   font-weight: bold;
 }
+header p span {
+  color: var(--primery-1);
+}
 .icons-container {
   display: flex;
   justify-content: space-around;
@@ -22,4 +25,38 @@ header p {
   font-size: 2rem;
   color: var(--primery-1);
   align-items: center;
+}
+/* hero--------------------- */
+.hero {
+  background-color: var(--primery-1);
+  min-height: 90vh;
+  color: rgb(215, 214, 214);
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+.hero p {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  color: white;
+  background-color: var(--primery-1);
+}
+.btn:hover {
+  background-color: rgb(194, 191, 191);
+  border: 1px solid #ffffff;
+  color: var(--primery-1);
+  font-weight: bold;
 }
