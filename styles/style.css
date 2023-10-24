@@ -1,0 +1,25 @@
+html {
+  --primery-1: rgb(61, 55, 240);
+}
+
+/* header */
+header {
+  min-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  align-items: center;
+  background-color: white;
+}
+header p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  font-size: 2rem;
+  color: var(--primery-1);
+  align-items: center;
+}
