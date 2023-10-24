@@ -15,6 +15,12 @@ header {
   align-items: center;
   background-color: white;
 }
+.header-footer {
+  display: none;
+}
+.disp-none {
+  color: black;
+}
 header p {
   font-size: 2rem;
   font-weight: bold;
@@ -221,15 +227,57 @@ h1 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.ico-con2 {
-  /* width: 10rem;
-  margin-left: auto;
-  margin-right: auto; */
-}
 .footer-text {
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: 1.5rem;
 }
-@media screen and (min-widht: 950px) {
+@media screen and (min-width: 950px) {
+  .header-footer {
+    display: flex;
+    gap: 2rem;
+  }
+  .hero {
+    background: url(/img/pho.avif) no-repeat center;
+    background-size: cover;
+  }
+  .hero * {
+    z-index: 1;
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(157, 130, 238, 0.552);
+    inset: 0;
+  }
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .section-text {
+    align-self: center;
+  }
+  .cart-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .about-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .img-galery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .submit input {
+    width: 60%;
+  }
 }
